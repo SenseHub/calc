@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電卓</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div id="result" class="display"></div>
+        <div class="box_btn">
+            <button class="ac" onclick="reset()">AC</button>
+            <button onclick="set(this)">/</button>
+            <button onclick="set(this)">*</button>
+            <button onclick="set(this)">9</button>
+            <button onclick="set(this)">8</button>
+            <button onclick="set(this)">7</button>
+            <button class="minus" onclick="set(this)">-</button>
+            <button onclick="set(this)">6</button>
+            <button onclick="set(this)">5</button>
+            <button onclick="set(this)">4</button>
+            <button class="plus" onclick="set(this)">+</button>
+            <button onclick="set(this)">3</button>
+            <button onclick="set(this)">2</button>
+            <button onclick="set(this)">1</button>
+            <button onclick="set(this)">0</button>
+            <button onclick="set(this)">.</button>
+            <button onclick="calc(this)">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
